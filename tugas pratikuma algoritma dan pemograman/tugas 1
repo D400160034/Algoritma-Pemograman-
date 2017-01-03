@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int p,l;
+    int L;
+    printf("program luuas persegi panjang\n");
+    printf("masukan nilai p:\n");
+    scanf("%d",&p);
+    printf("masukan nilai l:\n");
+    scanf("%d",&l);
+    L=p*l;
+    printf("luas persegi panjang= %d",L);
+    return 0;
+}
